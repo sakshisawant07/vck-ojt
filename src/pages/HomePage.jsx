@@ -44,7 +44,7 @@ const HomePage = () => {
             </div>
             </div>
             <Footer/>
-        </div> 
+        </div>  
     )
 }
 
