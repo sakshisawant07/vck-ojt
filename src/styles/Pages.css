@@ -198,6 +198,15 @@ tbody{
     height: 70%;
     width: 90%;
 }
+.video-caption {
+  text-align: center;
+  padding: 10px;
+  color: #777;
+  font-style: italic;
+  background-color: #F0F0F0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
 .enquire-btn-align{
     text-align: center;
 }

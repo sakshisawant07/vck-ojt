@@ -1,7 +1,7 @@
 .header-container{
     background-color: #007BFF;
     color: white;
-    padding: 5px 30px;
+    padding: 0px 30px;
     display:flex;
     justify-content: space-between;
     box-shadow: 0 2px 10px #0000001a;

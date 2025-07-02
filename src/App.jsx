@@ -10,6 +10,7 @@ import ChatbotComponent from "./components/Chatbot/ChatbotComponents";
 import { useState } from "react";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 
+
 const App = () => {
   const [showPopup, setShowPopup] = useState(true);
   const handleClosePopup = () => {
