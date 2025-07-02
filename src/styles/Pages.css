@@ -1,0 +1,211 @@
+.main-layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f7f6;
+    width: 1530px;
+}
+.content {
+    background-color: #52d2d2;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+/* .page-container {
+    max-width: 960px;
+    max-height: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px #0000000d;
+} */
+
+.button-color{
+    background-color: #28A745;
+    color: rgb(87, 76, 133);
+}
+.explore-button-color{
+    background-color: #28A745;
+    color: white;
+}
+
+.image{
+    width: 100%;
+    height: 360px;
+    object-fit: fill;
+    filter: brightness(60%);
+    position:sticky;
+    padding-left: 5px;
+    padding-left: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+.enquire-btn{
+    background-color: #28A745;
+    color: white;
+}
+.students-studying-img{
+    /* display:grid; */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    column-gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 220px;
+    width: 43%;
+    
+} 
+.bottum-img{
+    height: 100%;
+    width: 115%;
+    
+}
+
+.explore-button-align{
+    text-align: center;
+}
+.main-image-section{
+    text-align: center;
+    position:absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 80%;
+    font-size: larger;
+    font-family: Arial, sans-serif;
+}
+.container{
+    background-color:  #52d2d2;
+    padding: 30px;
+    align-items: center;
+    display: flex;
+    height: 600px;
+    padding-bottom: 0px;
+    
+}
+.sub-container{
+    background-color:white;
+    padding: 20px;
+    display: block;
+    overflow-y: scroll;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.home-banner{
+    border-radius: 10px;
+    align-items: center;
+    position: sticky;
+}
+.content-size{
+    display: flex;
+    padding-left: 230px;
+    padding-right: 250px;
+    padding-bottom: 5%;
+    padding-top: 5px;
+    height: 510px;
+}
+
+/* admission page */
+.admission-heading{
+    color: rgb(41, 140, 215);
+    text-align: center;
+    font-size: 40px;
+    animation: fadeIn 1s ease-in-out;
+}
+.admissions-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 8px hwb(0 80% 20%);
+}
+table {
+    display: table;
+    border-collapse:separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 5px;
+    border-color: #DEE2E6;
+    height: 170px;
+}
+thead{
+    display: table-header-group;
+    vertical-align:left;
+    border-color: #DEE2E6;
+    height: 25%;
+    background-color: rgb(238, 236, 236);
+    text-align: center;
+}
+tr {
+    display: table-row;
+    border-color: #DEE2E6;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+}
+hr{
+    /* border-color: rgb(230, 230, 230); */
+    color: rgb(230, 230, 230);;
+}
+/* .row{
+    background-color: #c1c5c9;
+} */
+tbody{
+    vertical-align:middle;
+}
+
+/* about page */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.about-heading{
+    color: rgb(41, 140, 215);
+    text-align: center;
+    font-size: 40px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* course page */
+
+.courses-heading{
+    color: rgb(41, 140, 215);
+    text-align: center;
+    font-size: 40px;
+    animation: fadeIn 1s ease-in-out;
+}
+.course-video{
+    width:100% ;
+    height:600px; 
+    border-radius: 25px;
+}
+.video-container{
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 70%;
+    width: 90%;
+}
+.enquire-btn-align{
+    text-align: center;
+}
+
+/* contact page  */
+.contact-heading{
+    color: rgb(41, 140, 215);
+    text-align: center;
+    font-size: 40px;
+    animation: fadeIn 1s ease-in-out;
+}
