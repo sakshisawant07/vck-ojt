@@ -35,7 +35,7 @@ const HomePage = () => {
                     <img src="\Images\campus-life.jpg" class="students-studying-img"/>
                 </div>
 
-                <p style={{textAlign:"center"}}>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
+                <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
                 
                 <div class="explore-button-align">
                     <p>Ready to explore our courses?</p>

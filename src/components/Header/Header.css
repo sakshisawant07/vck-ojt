@@ -13,8 +13,14 @@
 .nav-item{
     color:white;
     margin: 20px;
-    text-align: center;
-    
+}
+.ham-apply-btn{
+  text-align: center;
+  padding-top: 15px;
+  background-color: #28A745;
+  color:white;
+  height: 35px;
+  border-radius: 3px;
 }
 .college-name{
     color: white;

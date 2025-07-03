@@ -54,8 +54,7 @@ function Header() {
                 <Link className="nav-item" to="/contact" onClick={closeDrawer}>Contact</Link>
                 <Link
                       to="/admission"
-                      id="apply-btn" 
-                      class="nav-item-btn"
+                      class="ham-apply-btn"
                       onClick={closeDrawer}
                 >
                 Apply Now!
