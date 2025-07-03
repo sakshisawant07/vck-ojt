@@ -1,5 +1,7 @@
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
+import { Link } from "react-router-dom";
+
 const HomePage = () => {
     return(
         <div class='main-layout'>
@@ -12,7 +14,7 @@ const HomePage = () => {
                             <div class="main-image-section">
                                 <h1 style={{textAlign:"center"}}>Welcome to Vivekanand College</h1>
                                 <p>Your journey to excellence starts here!</p>
-                                <button id="header-adm-btn" class="button-color"><a href ="/admission" class="button-color">Apply Now!</a></button>
+                                <button id="header-adm-btn" class="button-color"><Link to ="/admission" class="button-color">Apply Now!</Link></button>
                             </div>
                     </div>
                 <p>Vivekanand College is a premier educational institution dedicated to fostering academic excellence, innovation, and holistic development. Established in 1980, we have proudly served generations of students, empowering them to achieve their full potential.</p>
@@ -37,7 +39,7 @@ const HomePage = () => {
                 
                 <div class="explore-button-align">
                     <p>Ready to explore our courses?</p>
-                    <button class="explore-button-color"><a href ="/courses" class="explore-button-color">Explore Courses</a></button>
+                    <button class="explore-button-color"><Link to ="/courses" class="explore-button-color">Explore Courses</Link></button>
                 </div>
                 
                 </div>

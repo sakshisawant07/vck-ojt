@@ -16,7 +16,7 @@ function Header() {
             {""}
             {/* for destop */}
             <div>
-            <a href="/" data-discover="true" class="college-name">Vivekanand College</a>
+            <Link to="/" data-discover="true" class="college-name">Vivekanand College</Link>
             </div>
             <nav class="navbar desktop-nav">
                 <Link to="/home" class="nav-item">Home  </Link>
@@ -26,7 +26,7 @@ function Header() {
                 {/* <Link to="/notfound" class="nav-item">NotFound </Link>
                 <Link to="/admission" class="nav-item" >Admission</Link> */}
                 <button id="apply-btn" class="nav-item-btn">
-                    <a href="/admission" class="nav-item-btn">Apply Now!</a>
+                    <Link to="/admission" class="nav-item-btn">Apply Now!</Link>
                 </button>
             </nav>
 

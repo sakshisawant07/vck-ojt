@@ -1,5 +1,6 @@
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
+import { Link } from "react-router-dom";
 const ContactPage = () => {
     return(
         <div class="main-layout">
@@ -24,7 +25,7 @@ const ContactPage = () => {
                 <p>For current student support, academic advising, or general assistance:<br/>Phone: +91 87654 32109<br/>Email: studentsupport@vivekanandcollege.edu</p>
                 <h2>Find Us on the Map</h2>
                 <hr/>
-                <p><br/><a href="https://maps.google.com/?q=Vivekanand+College" target="_blank" rel="noopener noreferrer">View on Google Maps</a></p>
+                <p><br/><Link to="https://maps.google.com/?q=Vivekanand+College" target="_blank" rel="noopener noreferrer">View on Google Maps</Link></p>
                 <h2>Send Us a Message</h2>
                 <hr/>
                 <p>[A contact form with fields for Name, Email, Subject, Message can be added here.]</p>  
